@@ -1,0 +1,105 @@
+{
+  "doctype": "DocType",
+  "name": "Lens Order",
+  "module": "Optics Retail",
+  "custom": 0,
+  "istable": 0,
+  "editable_grid": 0,
+  "is_submittable": 0,
+  "track_changes": 1,
+  "autoname": "format:LO-{customer}-{posting_date}-{####}",
+  "title_field": "customer",
+  "fields": [
+    {
+      "fieldname": "customer",
+      "label": "Customer",
+      "fieldtype": "Link",
+      "options": "Customer",
+      "reqd": 1
+    },
+    {
+      "fieldname": "posting_date",
+      "label": "Date",
+      "fieldtype": "Date",
+      "default": "Today",
+      "reqd": 1
+    },
+    {
+      "fieldname": "sales_invoice",
+      "label": "Sales Invoice",
+      "fieldtype": "Link",
+      "options": "Sales Invoice"
+    },
+    {
+      "fieldname": "frame_item_code",
+      "label": "Frame Item Code",
+      "fieldtype": "Data",
+      "reqd": 1
+    },
+    {
+      "fieldname": "lens_sku",
+      "label": "Lens SKU / Code",
+      "fieldtype": "Data",
+      "reqd": 1
+    },
+    {
+      "fieldname": "coatings",
+      "label": "Coatings",
+      "fieldtype": "Small Text"
+    },
+    {
+      "fieldname": "tint",
+      "label": "Tint",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "notes",
+      "label": "Notes",
+      "fieldtype": "Small Text"
+    },
+    {
+      "fieldname": "due_date",
+      "label": "Due Date",
+      "fieldtype": "Date"
+    },
+    {
+      "fieldname": "status",
+      "label": "Status",
+      "fieldtype": "Select",
+      "options": "Queued\nIn-Process\nReady\nDelivered",
+      "default": "Queued",
+      "reqd": 1
+    }
+  ],
+  "permissions": [
+    {
+      "role": "System Manager",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "delete": 1
+    },
+    {
+      "role": "Sales User",
+      "read": 1,
+      "write": 1,
+      "create": 1
+    },
+    {
+      "role": "Manufacturing User",
+      "read": 1
+    },
+    {
+      "role": "Accounts User",
+      "read": 1
+    }
+  ],
+  "allow_import": 1,
+  "list_view_fields": [
+    "customer",
+    "lens_sku",
+    "frame_item_code",
+    "status",
+    "due_date"
+  ]
+}

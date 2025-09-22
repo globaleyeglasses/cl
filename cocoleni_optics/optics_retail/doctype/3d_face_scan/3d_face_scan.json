@@ -1,0 +1,90 @@
+{
+  "doctype": "DocType",
+  "name": "3D Face Scan",
+  "module": "Optics Retail",
+  "custom": 0,
+  "istable": 0,
+  "editable_grid": 0,
+  "is_submittable": 0,
+  "track_changes": 1,
+  "autoname": "format:SCAN-{customer}-{scan_date}-{####}",
+  "title_field": "customer",
+  "fields": [
+    {
+      "fieldname": "customer",
+      "label": "Customer",
+      "fieldtype": "Link",
+      "options": "Customer",
+      "reqd": 1
+    },
+    {
+      "fieldname": "scan_date",
+      "label": "Scan Date",
+      "fieldtype": "Date",
+      "default": "Today",
+      "reqd": 1
+    },
+    {
+      "fieldname": "file",
+      "label": "Scan File (OBJ/STL/PLY)",
+      "fieldtype": "Attach",
+      "reqd": 1
+    },
+    {
+      "fieldname": "pd_total",
+      "label": "PD (Total)",
+      "fieldtype": "Float"
+    },
+    {
+      "fieldname": "pd_od",
+      "label": "PD (OD)",
+      "fieldtype": "Float"
+    },
+    {
+      "fieldname": "pd_os",
+      "label": "PD (OS)",
+      "fieldtype": "Float"
+    },
+    {
+      "fieldname": "bridge_width",
+      "label": "Bridge Width",
+      "fieldtype": "Float"
+    },
+    {
+      "fieldname": "consent",
+      "label": "Customer Consent",
+      "fieldtype": "Check",
+      "reqd": 1
+    }
+  ],
+  "permissions": [
+    {
+      "role": "System Manager",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "delete": 1
+    },
+    {
+      "role": "Sales User",
+      "read": 1,
+      "write": 1,
+      "create": 1
+    },
+    {
+      "role": "Manufacturing User",
+      "read": 1
+    },
+    {
+      "role": "Accounts User",
+      "read": 1
+    }
+  ],
+  "allow_import": 1,
+  "list_view_fields": [
+    "customer",
+    "scan_date",
+    "pd_total",
+    "bridge_width"
+  ]
+}

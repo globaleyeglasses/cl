@@ -1,0 +1,5 @@
+recursive-include cocoleni_optics *.json
+recursive-include cocoleni_optics *.js
+recursive-include cocoleni_optics *.py
+include LICENSE
+include README.md
