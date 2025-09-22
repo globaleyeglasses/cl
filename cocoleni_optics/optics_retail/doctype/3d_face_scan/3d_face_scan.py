@@ -1,5 +1,5 @@
 import frappe
 from frappe.model.document import Document
 
-class 3DFaceScan(Document):
+class FaceScan3D(Document):
     pass
