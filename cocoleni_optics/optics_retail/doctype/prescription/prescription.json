@@ -7,8 +7,6 @@
   "editable_grid": 0,
   "is_submittable": 0,
   "track_changes": 1,
-  "autoname": "format:RX-{customer}-{rx_date}-{####}",
-  "title_field": "customer",
   "fields": [
     {
       "fieldname": "customer",
@@ -24,33 +22,9 @@
       "reqd": 1
     },
     {
-      "fieldname": "expiry",
-      "label": "Expiry",
-      "fieldtype": "Date"
-    },
-    {
-      "fieldname": "section_od",
-      "label": "OD (Right Eye)",
-      "fieldtype": "Section Break"
-    },
-    {
       "fieldname": "od_sph",
       "label": "OD Sphere",
       "fieldtype": "Float"
-    },
-    {
-      "fieldname": "od_cyl",
-      "label": "OD Cylinder",
-      "fieldtype": "Float"
-    },
-    {
-      "fieldname": "od_axis",
-      "label": "OD Axis",
-      "fieldtype": "Float"
-    },
-    {
-      "fieldname": "column_split1",
-      "fieldtype": "Column Break"
     },
     {
       "fieldname": "os_sph",
@@ -58,56 +32,9 @@
       "fieldtype": "Float"
     },
     {
-      "fieldname": "os_cyl",
-      "label": "OS Cylinder",
-      "fieldtype": "Float"
-    },
-    {
-      "fieldname": "os_axis",
-      "label": "OS Axis",
-      "fieldtype": "Float"
-    },
-    {
-      "fieldname": "section_pd",
-      "label": "PD / Add",
-      "fieldtype": "Section Break"
-    },
-    {
-      "fieldname": "add_power",
-      "label": "Add Power",
-      "fieldtype": "Float"
-    },
-    {
-      "fieldname": "pd_od",
-      "label": "PD (OD)",
-      "fieldtype": "Float"
-    },
-    {
-      "fieldname": "pd_os",
-      "label": "PD (OS)",
-      "fieldtype": "Float"
-    },
-    {
       "fieldname": "pd_total",
       "label": "PD (Total)",
-      "fieldtype": "Float",
-      "read_only": 1
-    },
-    {
-      "fieldname": "optometrist",
-      "label": "Optometrist",
-      "fieldtype": "Data"
-    },
-    {
-      "fieldname": "attachments",
-      "label": "Files",
-      "fieldtype": "Attach"
-    },
-    {
-      "fieldname": "linked_sales_invoice",
-      "label": "Sales Invoice",
-      "fieldtype": "Link",
-      "options": "Sales Invoice"
+      "fieldtype": "Float"
     }
   ],
   "permissions": [
@@ -117,28 +44,6 @@
       "write": 1,
       "create": 1,
       "delete": 1
-    },
-    {
-      "role": "Sales User",
-      "read": 1,
-      "write": 1,
-      "create": 1
-    },
-    {
-      "role": "Manufacturing User",
-      "read": 1
-    },
-    {
-      "role": "Accounts User",
-      "read": 1
     }
-  ],
-  "allow_import": 1,
-  "list_view_fields": [
-    "customer",
-    "rx_date",
-    "expiry",
-    "pd_total",
-    "optometrist"
   ]
 }
