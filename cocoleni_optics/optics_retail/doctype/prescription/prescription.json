@@ -27,14 +27,59 @@
       "fieldtype": "Float"
     },
     {
+      "fieldname": "od_cyl",
+      "label": "OD Cylinder",
+      "fieldtype": "Float"
+    },
+    {
+      "fieldname": "od_axis",
+      "label": "OD Axis",
+      "fieldtype": "Int"
+    },
+    {
+      "fieldname": "od_add",
+      "label": "OD Add",
+      "fieldtype": "Float"
+    },
+    {
+      "fieldname": "od_seg_height",
+      "label": "OD Segment Height",
+      "fieldtype": "Float"
+    },
+    {
       "fieldname": "os_sph",
       "label": "OS Sphere",
+      "fieldtype": "Float"
+    },
+    {
+      "fieldname": "os_cyl",
+      "label": "OS Cylinder",
+      "fieldtype": "Float"
+    },
+    {
+      "fieldname": "os_axis",
+      "label": "OS Axis",
+      "fieldtype": "Int"
+    },
+    {
+      "fieldname": "os_add",
+      "label": "OS Add",
+      "fieldtype": "Float"
+    },
+    {
+      "fieldname": "os_seg_height",
+      "label": "OS Segment Height",
       "fieldtype": "Float"
     },
     {
       "fieldname": "pd_total",
       "label": "PD (Total)",
       "fieldtype": "Float"
+    },
+    {
+      "fieldname": "customer_file",
+      "label": "Customer File",
+      "fieldtype": "Attach"
     }
   ],
   "permissions": [

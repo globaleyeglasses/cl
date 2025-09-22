@@ -1,0 +1,23 @@
+{
+  "doctype": "Workspace",
+  "label": "Optics Retail",
+  "module": "Optics Retail",
+  "public": 1,
+  "shortcuts": [
+    {
+      "type": "DocType",
+      "label": "Prescription",
+      "link_to": "Prescription"
+    },
+    {
+      "type": "DocType",
+      "label": "Lens Order",
+      "link_to": "Lens Order"
+    },
+    {
+      "type": "DocType",
+      "label": "Face Scan 3D",
+      "link_to": "Face Scan 3D"
+    }
+  ]
+}

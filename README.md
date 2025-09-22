@@ -1,3 +1,3 @@
 # COCO LENI Optics
 
-Includes DocTypes: Prescription, Lens Order, Face Scan 3D.
+Includes DocTypes: Prescription, Lens Order, Face Scan 3D, plus Sales Order child tables.
