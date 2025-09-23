@@ -1,9 +1,11 @@
 {
   "doctype": "Workspace",
-  "name": "Optics Retail",
+  "name": "optics-retail",
   "label": "Optics Retail",
   "module": "Optics Retail",
   "public": 1,
+  "pin_to_sidebar": 1,
+  "sequence_id": 1,
   "shortcuts": [
     {
       "type": "DocType",

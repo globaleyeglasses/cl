@@ -2,8 +2,8 @@ from setuptools import setup, find_packages
 
 setup(
     name="cocoleni_optics",
-    version="0.2.1",
-    description="COCO LENI Optics App with Prescription, Lens Order, Face Scan 3D, and Sales Order Links",
+    version="0.3.1",
+    description="COCO LENI Optics: DocTypes + Workspace + Sales Order links (header & item)",
     author="COCO LENI",
     packages=find_packages(),
     include_package_data=True,
