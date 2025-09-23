@@ -3,6 +3,7 @@
     "doctype": "Workspace",
     "name": "optics-retail",
     "label": "Optics Retail",
+    "title": "Optics Retail",
     "module": "Optics Retail",
     "public": 1,
     "pin_to_sidebar": 1,

@@ -1,3 +1,3 @@
 # COCO LENI Optics
 
-Adds DocTypes, Workspace, Sales Order header tables and item-level links to Prescription & Lens Order.
+DocTypes, Workspace (title fix), Sales Order header & item links.

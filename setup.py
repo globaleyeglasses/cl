@@ -2,8 +2,8 @@ from setuptools import setup, find_packages
 
 setup(
     name="cocoleni_optics",
-    version="0.3.1",
-    description="COCO LENI Optics: DocTypes + Workspace + Sales Order links (header & item)",
+    version="0.3.2",
+    description="COCO LENI Optics: DocTypes, Workspace (title fix), Sales Order header & item links",
     author="COCO LENI",
     packages=find_packages(),
     include_package_data=True,
