@@ -1,6 +1,7 @@
 [
   {
     "doctype": "Custom Field",
+    "name": "Sales Order-prescriptions",
     "dt": "Sales Order",
     "fieldname": "prescriptions",
     "label": "Prescriptions",
@@ -11,6 +12,7 @@
   },
   {
     "doctype": "Custom Field",
+    "name": "Sales Order-lens_orders",
     "dt": "Sales Order",
     "fieldname": "lens_orders",
     "label": "Lens Orders",
@@ -21,6 +23,7 @@
   },
   {
     "doctype": "Custom Field",
+    "name": "Sales Order Item-prescription",
     "dt": "Sales Order Item",
     "fieldname": "prescription",
     "label": "Prescription",
@@ -32,6 +35,7 @@
   },
   {
     "doctype": "Custom Field",
+    "name": "Sales Order Item-lens_order",
     "dt": "Sales Order Item",
     "fieldname": "lens_order",
     "label": "Lens Order",
